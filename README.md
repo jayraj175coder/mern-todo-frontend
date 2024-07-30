@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# MERN To-Do Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is the frontend component of the MERN To-Do application. It is built using React.js and provides a user interface for managing to-do list. Users can add, edit, delete, and mark to-do list as completed.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Add To-Do **: Form to add new to-do items.
+- **Edit To-Do **: Ability to modify existing to-do items.
+- **Delete To-Do **: Option to remove to-do items.
+- **Mark To-Do  as Completed**: Toggle to mark list as completed or incomplete.
+- **Responsive Design**: Accessible on both desktop and mobile devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React.js**: For building the user interface.
+- **Axios**: For making API requests to the backend.
+- **CSS Framework**: Bootstrap  for styling.
+- **CSS-in-JS**: styled-components.
 
-### `npm test`
+## Setup Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clone the Repository
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/your-username/mern-todo-frontend.git
+cd mern-todo-frontend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2.Install Dependecies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install
 
-### `npm run eject`
+### 3.Set up Environment Variables
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+MONGO_URI=mongodb+srv://jayrajsanas175:5CIZurAVgUkBlNgn@cluster0.cp6sk0w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4.Start the server
+  npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### **API Endpoints**
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## API Endpoints
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **GET /todos**: Retrieve all to-do items.
+- **POST /todos**: Create a new to-do item.
+- **PUT /todos/:id**: Update an existing to-do item.
+- **DELETE /todos/:id**: Delete a to-do item.
 
 ### Deployment
+- Deployed on [https://66a87ecf11e7eee6a07a0e10--sprightly-pastelito-5ab8e6.netlify.app/].
+- Backend URL: (https://mern-todo-backend-tjps.onrender.com).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
